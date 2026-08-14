@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente Legal IA Local</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Asistente Legal IA (Privado y Local)</h2>
+        <div id="status">Estado: Verificando conexión con Ollama...</div>
+    </header>
+
+    <main id="chat-container">
+        <div class="message ia">¡Hola, doctor! Soy su asistente legal privado. Todo corre en su computadora — sus documentos nunca salen de su equipo. ¿En qué contrato o caso trabajamos hoy?</div>
+    </main>
+
+    <footer id="input-area">
+        <input type="text" id="user-input" placeholder="Escriba su consulta legal aquí..." disabled>
+        <button id="send-btn" disabled>Consultar</button>
+    </footer>
+
+    <!-- Carga de Datos de Demostración y Lógica de la Aplicación -->
+    <script src="data/demo-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
